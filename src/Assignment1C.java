@@ -17,9 +17,11 @@ public class Assignment1C {
         System.out.println("[And the next letter is]");
         System.out.println("Please enter a letter: ");
         char ltr = sc.next().charAt(0);
+            // Adding 1 to the entered letter and casting to integer variables
             int ltra = ltr + 1;
             int ltrb = ltra +1;
             int ltrc = ltrb +1;
+                // Casting ltr integers to char variables
                 char ltr1 = (char) ltra;
                 char ltr2 = (char) ltrb;
                 char ltr3 = (char) ltrc;
