@@ -22,7 +22,6 @@ public class Assignment1C {
             int ltra = ltr + 1;
             int ltrb = ltra +1;
             int ltrc = ltrb +1;
-                // Casting ltr integers to char variables
                 char ltr1 = (char) ltra;
                 char ltr2 = (char) ltrb;
                 char ltr3 = (char) ltrc;
