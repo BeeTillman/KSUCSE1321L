@@ -25,15 +25,9 @@ public class Assignment1A {
                 System.out.println("Enter the resolution(PPI):");
                 int res = sc.nextInt();
                     // Calculating Conversion from Pixels to inches
-                    float winc = ((float) wpix / (float) res);
-                    float hinc = ((float) hpix / (float) res);
+                    float winc = ((float) wpix / (float) res), hinc = ((float) hpix / (float) res);
                         // Printing Result
                         System.out.println("At " + res + " PPI, the image is " + winc + " wide by " + hinc + " high.");
-
-
-
-
-
     }
 
 }
