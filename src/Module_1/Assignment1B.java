@@ -1,4 +1,4 @@
-package Module_1;// Defining package (My code is organized by module)
+package Module_1;
 
 import java.util.Scanner;
 // Exception import for sleep
@@ -25,6 +25,5 @@ public class Assignment1B {
                                     Thread.sleep(4000);
                                     // Display final calculated grade
                                     System.out.println("Your final grade in CSE 1321L is " + fnl);
-
     }
 }

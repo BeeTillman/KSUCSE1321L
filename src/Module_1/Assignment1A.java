@@ -1,4 +1,4 @@
-package Module_1;// Defining package (My code is organized by module)
+package Module_1;
 
 import java.util.Scanner;
 
