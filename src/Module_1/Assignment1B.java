@@ -1,12 +1,5 @@
-// Defining package (My code is organized by module)
-package Module_1;/*
-Class:  CSE1321L
-Section:    J51
-Term:   Fall 2022
-Instructor: Jaskirat Singh Sohal
-Name:   Billups Tillman
-Lab/Assignment#:    1
- */
+package Module_1;// Defining package (My code is organized by module)
+
 import java.util.Scanner;
 // Exception import for sleep
 import java.util.concurrent.TimeUnit;
