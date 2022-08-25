@@ -10,7 +10,7 @@ public class Assignment1C {
         System.out.println("[And the next letter is]\nPlease enter a letter: ");
         char letter = sc.next().charAt(0);
             // Adding 1 to the entered letter and casting to integer variables
-            int letterA = (letter +1), letterB = (letterA + 1), letterC = (letterB + 1);
+            int letterA = (letter+1), letterB = (letterA+1), letterC = (letterB+1);
                 char letter1 = (char) letterA, letter2 = (char) letterB, letter3 = (char) letterC;
             System.out.println("The next letters after " +letter+ " are " +letter1+  ", " +letter2+ ", and " +letter3+ "!");
     }
