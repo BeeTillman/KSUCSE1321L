@@ -21,19 +21,19 @@ public class Lab3C {
         int NICKELS = sc.nextInt();
         System.out.println("Enter the number of pennies: ");
         int PENNIES = sc.nextInt();
-            //Listing user input as output
-            System.out.println("You entered "+QUARTERS+" quarters.\nYou entered "+DIMES+" dimes.\nYou entered "+NICKELS+" nickels.\nYou entered "+PENNIES+" pennies.");
+        //Listing user input as output
+        System.out.println("You entered "+QUARTERS+" quarters.\nYou entered "+DIMES+" dimes.\nYou entered "+NICKELS+" nickels.\nYou entered "+PENNIES+" pennies.");
             //Calculating conversion
             int QUARTERSTOTAL = (QUARTERS*25),DIMESTOTAL=(DIMES*10),NICKELSTOTAL=(NICKELS*5),PENNIESTOTAL=(PENNIES*1);
             int TOTAL = (QUARTERSTOTAL+DIMESTOTAL+NICKELSTOTAL+PENNIESTOTAL);
-            int dollars = 0;
-            int cents = TOTAL;
-            //Removing 100 from the total and cent values until only cents are left, while also adding to the dollar value
-            while(TOTAL > 100){
-                ++dollars;
-                cents = (TOTAL-100);
-                TOTAL = (TOTAL - 100);
-            }
-            System.out.println("You have "+dollars+" dollars and "+cents+" cents.");
+            int DOLLARS = 0;
+            int CENTS = TOTAL;
+                //Removing 100 from the total and cent values until only cents are left, while also adding to the dollar value
+                while(TOTAL > 100){
+                    ++DOLLARS;
+                    CENTS = (TOTAL-100);
+                    TOTAL = (TOTAL-100);
+                }
+                System.out.println("You have "+DOLLARS+" dollars and "+CENTS+" cents.");
     }
 }
