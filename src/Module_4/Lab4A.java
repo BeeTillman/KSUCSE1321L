@@ -8,7 +8,6 @@ Name:   Billups Tillman
 Lab/Assignment#:    4
 */
 import java.util.Scanner;
-
 public class Lab4A {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
