@@ -19,14 +19,15 @@ public class Lab5A {
 
             System.out.println("Do you have a driving permit (Y/N)? ");
             permitA = sc.next().charAt(0);
-            if (permitA == 'Y'||permitA == 'y'){
-                System.out.println("Do you have a commercial driving license (Y/N)? ");
-                permitB = sc.next().charAt(0);
-                if (permitB == 'Y'||permitB == 'y'){
-                    System.out.println("Congratulations! You can purchase a vehicle, let's start talking options!");
-                }
-                else System.out.println("Commercial driving license is a prerequisite to purchase a vehicle!");
+            if (permitA == 'Y'||permitA == 'y'||permitA == 'N'||permitA == 'n') {
+                if (permitA == 'Y' || permitA == 'y') {
+                    System.out.println("Do you have a commercial driving license (Y/N)? ");
+                    permitB = sc.next().charAt(0);
+                    if (permitB == 'Y' || permitB == 'y') {
+                        System.out.println("Congratulations! You can purchase a vehicle, let's start talking options!");
+                    } else System.out.println("Commercial driving license is a prerequisite to purchase a vehicle!");
+                } else System.out.println("Driving permit is a prerequisite to purchase a vehicle!");
             }
-            else System.out.println("Driving permit is a prerequisite to purchase a vehicle!");
+            else System.out.println(invalid);
     }
 }
