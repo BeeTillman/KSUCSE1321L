@@ -24,15 +24,12 @@ public class Lab3C {
         //Listing user input as output
         System.out.println("You entered "+QUARTERS+" quarters.\nYou entered "+DIMES+" dimes.\nYou entered "+NICKELS+" nickels.\nYou entered "+PENNIES+" pennies.");
             //Calculating conversion
-            int QUARTERSTOTAL = (QUARTERS*25),DIMESTOTAL=(DIMES*10),NICKELSTOTAL=(NICKELS*5),PENNIESTOTAL=(PENNIES*1);
-            int TOTAL = (QUARTERSTOTAL+DIMESTOTAL+NICKELSTOTAL+PENNIESTOTAL);
             int DOLLARS = 0;
-            int CENTS = TOTAL;
+            int CENTS = (QUARTERS*25)+(DIMES*10)+(NICKELS*5)+(PENNIES);
                 //Removing 100 from the total and cent values until only cents are left, while also adding to the dollar value
-                while(TOTAL > 100){
+                while(CENTS >= 100){
                     ++DOLLARS;
-                    CENTS = (TOTAL-100);
-                    TOTAL = (TOTAL-100);
+                    CENTS = (CENTS-100);
                 }
                 System.out.println("You have "+DOLLARS+" dollars and "+CENTS+" cents.");
     }

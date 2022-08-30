@@ -12,11 +12,10 @@ public class Lab5A {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         /* Creating parameters for Driving Permit and Commercial License
-           & creating a configurable string to output a failure prompt.
-        */
+           & creating a configurable string to output a failure prompt.*/
         char permitA, permitB;
         String invalid = "Invalid Input, please type \"Y\" or \"N\"";
-
+            // Asking for Y/N input then comparing the stored char value to determine the output
             System.out.println("Do you have a driving permit (Y/N)? ");
             permitA = sc.next().charAt(0);
             if (permitA == 'Y'||permitA == 'y'||permitA == 'N'||permitA == 'n') {
