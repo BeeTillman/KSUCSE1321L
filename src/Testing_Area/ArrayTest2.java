@@ -17,7 +17,7 @@ public class ArrayTest2 {
         Scanner sc = new Scanner(System.in);
         Object[] arr = {0,1,2};
         System.out.println("Array: "+Arrays.toString(arr));
-        ArrayList<Integer> arrayList = new ArrayList<Integer>(Arrays.asList());
+        ArrayList<Integer> arrayList = new ArrayList<Integer>(Arrays.asList(arr));
         arrayList.add(8);
         arr = arrayList.toArray();
         System.out.println("Please enter 5 numbers separated by pressing enter: ");

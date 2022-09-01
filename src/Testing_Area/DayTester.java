@@ -16,7 +16,7 @@ public class DayTester {
             System.out.println("What day is it? ");
                 String currentDay = sc.next();
                 if(days[2].equalsIgnoreCase(currentDay)|days[3].equalsIgnoreCase(currentDay)|days[4].equalsIgnoreCase(currentDay)) {
-                    if (days[3].equals(currentDay)) {
+                    if (days[3].equalsIgnoreCase(currentDay)) {
                         System.out.println("You have School today!");
                         System.out.println("You have CSE 1321 Lab at Noon Today");
                     } else {
@@ -31,7 +31,7 @@ public class DayTester {
     }
 }
 /* NOTES
- - When comparing Strings (Checking if one string is equal to another, for exmaple, in an array (Line 18)), use ".equals"
+ - When comparing Strings (Checking if one string is equal to another, for example, in an array (Line 18)), use ".equals"
     instead of "=="
  - Making .equals into .equalsIgnoreCase makes the comparisons ignore case sensitivity
  */
