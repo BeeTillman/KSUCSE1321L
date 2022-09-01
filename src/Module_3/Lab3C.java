@@ -1,5 +1,4 @@
-package Module_3;
-/*
+package Module_3;/*
 Class:  CSE1321L
 Section:    J51
 Term:   Fall 2022
@@ -31,6 +30,6 @@ public class Lab3C {
                     ++DOLLARS;
                     CENTS = (CENTS-100);
                 }
-                System.out.println("You have "+DOLLARS+" dollars and "+CENTS+" cents.");
+                System.out.println("Your total is "+DOLLARS+" dollars and "+CENTS+" cents.");
     }
 }
