@@ -1,5 +1,12 @@
 package Testing_Area;
-
+/*
+************TESTING AREA***********
+* ALL CODE IN THESE FILES IS VOID *
+*
+*         Array Test
+*   Made to test array usage
+***********************************
+*/
 import java.util.Arrays;
 import java.util.Scanner;
 
