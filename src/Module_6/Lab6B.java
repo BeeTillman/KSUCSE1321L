@@ -17,7 +17,7 @@ public class Lab6B {
             System.out.println("Enter a number between 1 and 1000: ");
                 int inNUM = sc.nextInt();
             while(inNUM<1000 && inNUM>1){
-                int guess =
+                //int guess =
             }
     }
 }
