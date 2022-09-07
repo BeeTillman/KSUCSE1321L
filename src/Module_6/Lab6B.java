@@ -21,7 +21,7 @@ public class Lab6B {
                 int guess = rand.nextInt(1000);
                     if(guess==inNUM){
                         System.out.println("My guess was "+guess);
-                        System.out.println("I guessed the number was "+guess+" and it only too me "+guesses+" guesses");
+                        System.out.println("I guessed the number was "+guess+" and it only took me "+guesses+" guesses");
                         break;
                     }
                     else{
