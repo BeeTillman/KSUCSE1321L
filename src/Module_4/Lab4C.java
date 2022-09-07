@@ -17,12 +17,12 @@ public class Lab4C {
         System.out.println("4- Exit the program");
             int inNUM = sc.nextInt();
             switch (inNUM) {
-                case 0 -> System.out.println("The additive inverse of " + NUM + " is " + -NUM);
-                case 1 -> System.out.println("The reciprocal of " + NUM + " is " + 1 / NUM);
-                case 2 -> System.out.println(NUM + " Squared, is " + NUM * NUM);
-                case 3 -> System.out.println(NUM + " Cubed, is " + NUM * NUM * NUM);
-                case 4 -> System.out.println("Thank you, goodbye!");
-                default -> System.out.println("Invalid input, please try again!" );
+                case 0: System.out.println("The additive inverse of " + NUM + " is " + -NUM); break;
+                case 1: System.out.println("The reciprocal of " + NUM + " is " + 1 / NUM); break;
+                case 2: System.out.println("The square of "+NUM+" is " + NUM*NUM); break;
+                case 3: System.out.println("The cube of "+NUM+" is " + NUM*NUM*NUM); break;
+                case 4: System.out.println("Thank you, goodbye!"); break;
+                default: System.out.println("Invalid input, please try again!" ); break;
             }
     }
 }

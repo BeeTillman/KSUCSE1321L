@@ -6,6 +6,8 @@ Instructor: Jaskirat Singh Sohal
 Name:   Billups Tillman
 Lab/Assignment#:    4
 */
+// THIS VERSION OF LAB4C IS NOT WORKING DUE TO GRADESCOPE BEING ON OLD JAVA VERSION //
+// CANNOT USE "->" IN SWITCH STATEMENT. THIS VERSION ALSO CONTAINS A WHILE LOOPS   //
 import java.util.Scanner;
 public class Lab4CMkI {
     public static void main(String[] args){
