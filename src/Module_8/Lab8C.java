@@ -22,10 +22,10 @@ public class Lab8C {
         int[] intArr1D = new int[oneD+1];
         System.out.println("I have "+rows+" rows and "+columns+" columns. I need to fill-up "+oneD+" spaces.");
         System.out.println("The "+rows+"x"+columns+" array:");
-        for(int i=1;i<=columns;i++){
+        for(int i=1;i<=rows;i++){
             intArr[i] = i;
-            System.out.println("");
-            for(int j=1;j<=rows;j++){
+            System.out.println();
+            for(int j=1;j<=columns;j++){
                 intArr[j] = counter;
                 System.out.print(intArr[j]+"|");
                 counter++;
