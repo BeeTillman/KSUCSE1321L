@@ -12,10 +12,9 @@ import java.util.Scanner;
 public class Lab6A {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        int i = 0;
-        int highNUM = 0;
-        for(i=1;i<=10;i++){
-            System.out.println("Please enter number "+i);
+        int highNUM = -1;
+        for(int i=1;i<=10;i++){
+            System.out.println("Please enter number "+i+": ");
             int inNUM = sc.nextInt();
             if(inNUM>=highNUM) highNUM = inNUM;
         }
