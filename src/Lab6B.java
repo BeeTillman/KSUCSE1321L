@@ -1,4 +1,3 @@
-package Module_6;
 /*
 Class:  CSE1321L
 Section:    J51
@@ -15,12 +14,11 @@ public class Lab6B {
         Scanner sc = new Scanner(System.in);
         Random rand = new Random();
         int guesses = 1;
-            System.out.println("Enter a number between 1 and 1000: ");
+            System.out.println("Enter a number between 1 and 1000");
                 int inNUM = sc.nextInt();
             while(inNUM<1000 && inNUM>1){
                 int guess = rand.nextInt(1000);
                     if(guess==inNUM){
-                        System.out.println("My guess was "+guess);
                         System.out.println("I guessed the number was "+guess+" and it only took me "+guesses+" guesses");
                         break;
                     }
