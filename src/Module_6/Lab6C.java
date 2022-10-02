@@ -1,3 +1,5 @@
+package Module_6;
+
 import java.util.Scanner;
 
 /*
