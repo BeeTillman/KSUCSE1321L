@@ -1,5 +1,4 @@
-package Module_8;
-/*
+package Module_8;/*
 Class:  CSE1321L
 Section:    J51
 Term:   Fall 2022
@@ -31,7 +30,7 @@ public class Lab8C {
                 counter++;
             }
         }
-        System.out.println("\nThe 4x4 2-D array flattened into a 16 cell 1-D array:");
+        System.out.println("\nThe "+rows+"x"+columns+" 2-D array flattened into a "+oneD+" cell 1-D array:");
         for(int z=1;z<=oneD;z++){
             intArr1D[z] = z;
             System.out.print(intArr1D[z]+"|");
