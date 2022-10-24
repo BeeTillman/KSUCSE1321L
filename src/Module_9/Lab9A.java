@@ -1,5 +1,4 @@
-package Module_9;
-/*
+package Module_9;/*
 Class:  CSE1321L
 Section:    J51
 Term:   Fall 2022
@@ -31,7 +30,7 @@ public class Lab9A {
             }
             j++;
         }
-        if(bool==1) System.out.println("The target number is in the set.");
-        else System.out.println("The target number is not in the set.");
+        if(bool==1) System.out.println("The target is in the set.");
+        else System.out.println("The target is not in the set.");
     }
 }

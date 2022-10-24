@@ -1,12 +1,10 @@
-package Module_5;
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Assignment5A {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         String noFriend = "";
-        String input, replacement;
+        String input;
         String[] friends = {noFriend,noFriend,noFriend,noFriend,noFriend};
         int choice,sent=0,friendNum=0,index;
 
