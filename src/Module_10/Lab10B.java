@@ -1,3 +1,5 @@
+package Module_10;
+
 import java.util.Scanner;
 public class Lab10B {
     public static boolean isValid(double width, double height){
